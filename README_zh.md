@@ -19,14 +19,19 @@
 
 首先，请确保您已安装 [Claude Code](https://docs.anthropic.com/en/docs/claude-code/quickstart)：
 
+
 ```shell
 npm install -g @anthropic-ai/claude-code
+# or
+bun install -g @anthropic-ai/claude-code
 ```
 
 然后，安装 Claude Code Router：
 
 ```shell
 npm install -g @musistudio/claude-code-router
+# or
+bun install -g @musistudio/claude-code-router
 ```
 
 ### 2. 配置

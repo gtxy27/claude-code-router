@@ -23,12 +23,16 @@ First, ensure you have [Claude Code](https://docs.anthropic.com/en/docs/claude-c
 
 ```shell
 npm install -g @anthropic-ai/claude-code
+# or
+bun install -g @anthropic-ai/claude-code
 ```
 
 Then, install Claude Code Router:
 
 ```shell
 npm install -g @musistudio/claude-code-router
+# or
+bun install -g @musistudio/claude-code-router
 ```
 
 ### 2. Configuration
