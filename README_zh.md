@@ -114,9 +114,10 @@ bun install -g @musistudio/claude-code-router
           [
             "maxtoken",
             {
-              "max_tokens": 8192
+              "max_tokens": 65536
             }
-          ]
+          ],
+          "enhancetool"
         ]
       }
     },
@@ -130,9 +131,10 @@ bun install -g @musistudio/claude-code-router
           [
             "maxtoken",
             {
-              "max_tokens": 8192
+              "max_tokens": 65536
             }
-          ]
+          ],
+          "enhancetool"
         ]
       }
     }
@@ -155,6 +157,11 @@ bun install -g @musistudio/claude-code-router
 ```shell
 ccr code
 ```
+
+> **注意**: 修改配置文件后，需要重启服务使配置生效：
+> ```shell
+> ccr restart
+> ```
 
 #### Providers
 
@@ -413,6 +420,8 @@ jobs:
 - @*琢
 - @*成
 - @Z*o
+- [@congzhangzh](https://github.com/congzhangzh)
+- @*_
 
 （如果您的名字被屏蔽，请通过我的主页电子邮件与我联系，以便使用您的 GitHub 用户名进行更新。）
 
